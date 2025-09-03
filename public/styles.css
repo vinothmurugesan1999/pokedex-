@@ -1,0 +1,31 @@
+body {
+    background-color: #f8f9fa;
+}
+.pokemon-card {
+    max-width: 400px;
+    margin: 50px auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.pokemon-card .card-header {
+    background-color: #dc3545;
+    color: white;
+    text-transform: capitalize;
+    font-weight: bold;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.pokemon-card .card-body {
+    padding: 20px;
+}
+.pokemon-card .card-title {
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.pokemon-card .list-group-item {
+    text-transform: capitalize;
+}
+.form-container {
+    max-width: 400px;
+    margin: 20px auto;
+}
